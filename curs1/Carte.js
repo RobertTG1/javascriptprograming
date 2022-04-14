@@ -1,21 +1,25 @@
-class Carte {
+class carte {
      constructor(titlu,autor, editura,an,pret) {
+         console.log(`s-a apelat automat constructorul`);
          this.titlu = titlu;
          this.autor = autor;
          this.editura = editura;
          this.an = an;
          this.pret =pret;
      }
-     deschidCartea(){
-         console.log('Am deschis cartea la pagina 15');
+     afiseazaTitlu(){
+         console.log(`Titlul este ${this.titlu}`);
      }
-     randomIntFromInterval(min, max) { // min and max included 
-        return Math.floor(Math.random() * (max - min + 1) + min)
-      }
+    //  deschidCartea(){
+    //      console.log('Am deschis cartea la pagina 15');
+    //  }
+    //  randomIntFromInterval(min, max) { // min and max included 
+    //     return Math.floor(Math.random() * (max - min + 1) + min)
+    //   }
       
 
 }
 
-// Curs 2 Module
-export {Carte}
+// // Curs 2 Module
+// export {Carte}
 
