@@ -1,4 +1,4 @@
-class carte {
+class Carte {
      constructor(titlu,autor, editura,an,pret) {
          console.log(`s-a apelat automat constructorul`);
          this.titlu = titlu;
@@ -10,9 +10,9 @@ class carte {
      afiseazaTitlu(){
          console.log(`Titlul este ${this.titlu}`);
      }
-    //  deschidCartea(){
-    //      console.log('Am deschis cartea la pagina 15');
-    //  }
+     deschideCartea(){
+         console.log('Am deschis cartea la pagina 15');
+      }
     //  randomIntFromInterval(min, max) { // min and max included 
     //     return Math.floor(Math.random() * (max - min + 1) + min)
     //   }
@@ -21,5 +21,5 @@ class carte {
 }
 
 // // Curs 2 Module
-// export {Carte}
+ export {Carte}
 
