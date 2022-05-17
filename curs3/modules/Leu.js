@@ -1,12 +1,13 @@
-import { Animal } from '../modules/Animal.js'
-class Leu extends Animal {
-    constructor(greutate, lungime) {
-        lungime;
+import {Animal} from '../modules/Animal.js'
+
+class Leu extends Animal{
+    lungime;
+    constructor(greutate, lungime){
         super(greutate);
-        this.lungime = lungime;
+        this.lungime = lungime
     }
-    vaneaza() {
+    vaneaza(){
         console.log(`Cand nu doarme vaneaza alte animale`);
     }
 }
-export { Leu }
+export {Leu}
