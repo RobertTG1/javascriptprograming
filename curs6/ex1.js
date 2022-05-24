@@ -6,5 +6,4 @@ let adunare = (a, b) => {
 // 2. apelam functia
 console.log("Suma dintre 24 si 46 este", adunare(24, 46));
 
-// 3. in terminal rulam comanda:
-// node  sau nodemon ap1.js daca modulul nodemon este instalat
+// 3. in terminal rulam comanda: node  sau nodemon ex1.js daca modulul nodemon este instalat
