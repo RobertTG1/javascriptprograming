@@ -1,22 +1,19 @@
-import {Product} from './Product.js';
-import{Book} from './Book.js';
 
 class Basket{
-    constructor(){
+    constructor() {
         this.products = [];
     }
-    addProduct(amount,product){
+    addProduct(amount, product) {
         this.products.push(...Array(amount).fill(product));
     }
-    calcTOtal(){
-        return this.products;
-         map(product => product.price)
-        .reduce((a,b) => a+b, o);
+    calcTotal() {
+        return this.products
+            .map(product => product.price)
+            .reduce((a, b) => a + b, 0);
     }
-    printShoppingInfo(){
-        console.log(`Total:` + this.calcTOtal());
+    printShoppingInfo() {
+        console.log('Total: ' + this.calcTotal());
     }
 }
-
 
 export {Basket};

@@ -1,9 +1,9 @@
 import {Product} from './Product.js';
 class Book extends Product{
-    autor;
-    constructor(name,price,percent,autor){
-        super(name, price,percent);
-        this.autor = autor;
+    author;
+    constructor(name, price, percent, author){
+        super(name, price, percent);
+        this.author=author;
     }
 }
 export {Book};
